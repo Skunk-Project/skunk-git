@@ -1,8 +1,7 @@
 <html>
 <body>
 <?php
-    if ($_POST["bname"] == "Maier" && $_POST["pw"] == "kuckuck")
-        echo "Zugang gestattet";
+    if ($_POST["name"] == "Maier" && $_POST["pw"] == "kuckuck") echo "Zugang gestattet";
     else
         echo "Zugang verweigert";
 ?>
